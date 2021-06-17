@@ -1,0 +1,19 @@
+.main-container {
+    /*padding-top: 50px;*/
+    justify-content: center;
+    /*display: flex;*/
+    min-height: 100%;
+}
+
+.elon-image {
+    max-width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+@media only screen and (max-width: 414px) {
+    .elon-image {
+        max-height: 30vh;
+    }
+}
+

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: DINPro,Helvetica,Arial,Sans-Serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e0dfdc;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,30 @@
+.header-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    width: 100%;
+}
+
+.name {
+    color: beige;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-left: 10vh;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 414px) {
+    .header-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .name {
+        margin: 0;
+    }
+}
