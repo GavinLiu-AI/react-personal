@@ -2,11 +2,14 @@
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding-top: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 5vh;
     padding-bottom: 20px;
     margin: 0;
     width: 100%;
+    position: absolute;
+    top: 0;
+
 }
 
 .name {
@@ -14,7 +17,7 @@
     font-weight: normal;
     font-size: 30px;
     text-transform: uppercase;
-    margin-left: 10vh;
+    margin-left: 15vh;
     text-decoration: none;
 }
 

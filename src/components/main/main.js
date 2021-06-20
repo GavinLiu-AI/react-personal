@@ -1,14 +1,16 @@
 import React from 'react';
-import Elon from "../../assets/elon.jpg";
 import './main.css'
 import Header from "../header/Header";
 import Footer from "../footer/footer";
+import Vid from "../../assets/background/space-vid.mp4"
 
 function Main(props) {
   return (
     <div className='main-container'>
+      <video autoPlay loop muted playsInline className='background-video'>
+        <source src={Vid} type="video/mp4"/>
+      </video>
       <Header />
-      <img src={Elon} width="1000" height="600" alt="elon" className='elon-image'/>
       <Footer />
     </div>
   );

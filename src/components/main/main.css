@@ -1,27 +1,32 @@
 .main-container {
-    /*padding-top: 50px;*/
     justify-content: center;
-    /*display: flex;*/
-    min-height: 100%;
-
-    background-image: url('../../assets/background/space.jpeg');
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
+    /*!*background-image: url('../../assets/background/space2.jpg');*!*/
+    background-image: url('../../assets/background/space2.jpg');
     background-size: cover;
     background-position: center;
+    /*!*position: fixed;*!*/
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    /*overflow-x: hidden;*/
+    /*object-fit: fill;*/
 }
 
-.elon-image {
-    max-width: 100%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    opacity: 70%;
+.background-video {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
 }
 
 @media only screen and (max-width: 414px) {
     .elon-image {
         max-height: 30vh;
+    }
+
+    .background-video {
+        display: none;
     }
 }
 
