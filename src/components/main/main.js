@@ -2,7 +2,7 @@ import React from 'react';
 import './main.css'
 import Header from "../header/Header";
 import Footer from "../footer/footer";
-import Vid from "../../assets/background/space-vid.mp4"
+import Vid from "../../assets/background/space-vid2.mp4"
 
 function Main(props) {
   return (
