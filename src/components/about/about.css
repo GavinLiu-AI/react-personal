@@ -14,3 +14,93 @@
     width: 100%;
     object-fit: fill;
 }
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 5vh;
+    color: white;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    position: absolute;
+    width: 70%;
+    height: 70vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.gavin-video {
+    border-radius: 150px;
+    width: 30%;
+    opacity: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+}
+
+.gavin-header {
+    color: beige;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 5vh;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.gavin-intro {
+    color: beige;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.gavin-text {
+    color: beige;
+    font-size: 20px;
+    margin-top: 3vh;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media only screen and (max-width: 414px) {
+    .background-video {
+        display: none;
+    }
+
+    .gavin-video {
+        border-radius: 150px;
+        width: 60%;
+        opacity: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5vh;
+    }
+
+    .about-content {
+        margin-top: 1vh;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .gavin-header {
+        margin-top: 0;
+        display: none;
+    }
+
+    .gavin-intro {
+        margin-top: 2vh;
+    }
+
+    .gavin-text {
+        width: 80vw;
+    }
+}

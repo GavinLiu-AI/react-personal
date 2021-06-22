@@ -1,5 +1,4 @@
 import './App.css';
-import Main from "./components/main/main";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import React from "react";
 import About from "./components/about/about";
@@ -10,9 +9,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path="/about" component={About} />
+          {/*<Route path="/about" component={About} />*/}
           <Route path="/contact" component={Contact} />
-          <Route path="/" component={Main} />
+          <Route path="/" component={About} />
         </Switch>
       </Router>
     </div>
