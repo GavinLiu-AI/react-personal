@@ -1,11 +1,12 @@
 import React from 'react';
 import './Navbar.css'
+import {Link} from "react-router-dom";
 
 function Navbar(props) {
   return (
     <div className='navbar-container'>
-        <a href='about' className='navItem'>About</a>
-        <a href='contact' className='navItem'>Contact</a>
+      <Link to="/about" className='navItem'>About</Link>
+      <Link to="/contact" className='navItem'>Contact</Link>
     </div>
   );
 }

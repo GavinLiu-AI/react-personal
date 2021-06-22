@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  position: relative;
+  width: 100% !important;
 }
 
 .App-logo {
@@ -36,4 +38,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(gray, black);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-image: linear-gradient(slategray, black);
 }
