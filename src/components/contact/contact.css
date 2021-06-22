@@ -98,6 +98,10 @@
 }
 
 @media only screen and (max-width: 414px) {
+    .background-video {
+        display: none;
+    }
+
     .contact-form {
         margin-top: 10vh;
         height: 70vh;
