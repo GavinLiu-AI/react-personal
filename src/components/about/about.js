@@ -3,7 +3,7 @@ import Vid from "../../assets/background/jupiter.mp4";
 import Header from "../header/Header";
 import Footer from "../footer/footer";
 import './about.css';
-import Gavin from "../../assets/background/gavin.mp4";
+import GavinImage from "../../assets/gavin.jpeg";
 
 function About(props) {
   return (
@@ -13,9 +13,7 @@ function About(props) {
       </video>
       <Header />
       <div className='about-content'>
-        <video autoPlay loop muted playsInline className='gavin-video'>
-          <source src={Gavin} type="video/mp4" />
-        </video>
+        <img src={GavinImage} alt="Gavin" className='gavin-video'/>
         <span className='gavin-header'>Gavin Liu</span>
         <span className='gavin-intro'>I build things for fun.</span>
         <span className='gavin-text'>I'm a west coast based electrical and software engineer who enjoys working on

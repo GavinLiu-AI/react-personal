@@ -32,8 +32,7 @@
 
 .gavin-video {
     border-radius: 150px;
-    width: 30%;
-    opacity: 90%;
+    width: 20%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10vh;
@@ -78,11 +77,11 @@
 
     .gavin-video {
         border-radius: 150px;
-        width: 60%;
+        width: 50%;
         opacity: 90%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 5vh;
+        margin-top: 0px;
     }
 
     .about-content {

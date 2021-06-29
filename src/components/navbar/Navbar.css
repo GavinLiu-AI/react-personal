@@ -21,7 +21,7 @@
     .navbar-container {
         display: flex;
         flex-direction: row;
-        padding-top: 5vh;
+        padding-top: 3vh;
         justify-content: center;
         width: 100%;
     }
