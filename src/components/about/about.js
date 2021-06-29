@@ -2,8 +2,8 @@ import React from 'react';
 import Vid from "../../assets/background/jupiter.mp4";
 import Header from "../header/Header";
 import Footer from "../footer/footer";
-import './about.css'
-import Gavin from "../../assets/gavin.mp4"
+import './about.css';
+import Gavin from "../../assets/background/gavin.mp4";
 
 function About(props) {
   return (
