@@ -1,0 +1,58 @@
+.projects-container {
+    justify-content: center;
+    background-image: url('../../assets/background/moon.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.projects-background-video {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+.projects-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 5vh;
+    color: white;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    position: absolute;
+    width: 70%;
+    height: 70vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.projects-text {
+    color: beige;
+    font-size: 30px;
+    margin-top: 3vh;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+@media only screen and (max-width: 414px) {
+    .background-video {
+        display: none;
+    }
+
+    .projects-content {
+        margin-top: 1vh;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .projects-text {
+        width: 80vw;
+    }
+}

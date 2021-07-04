@@ -8,12 +8,12 @@ import GavinImage from "../../assets/gavin.jpeg";
 function About(props) {
   return (
     <div className='about-container'>
-      <video autoPlay loop muted playsInline className='background-video'>
+      <video autoPlay loop muted playsInline className='about-background-video'>
         <source src={Vid} type="video/mp4" />
       </video>
       <Header />
       <div className='about-content'>
-        <img src={GavinImage} alt="Gavin" className='gavin-video'/>
+        <img src={GavinImage} alt="Gavin" className='gavin-image'/>
         <span className='gavin-header'>Gavin Liu</span>
         <span className='gavin-intro'>I build things for fun.</span>
         <span className='gavin-text'>I'm a west coast based electrical and software engineer who enjoys working on

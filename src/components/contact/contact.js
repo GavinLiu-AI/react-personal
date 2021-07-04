@@ -21,7 +21,7 @@ function Contact(props) {
 
   return (
     <div className='contact-container'>
-      <video autoPlay loop muted playsInline className='background-video'>
+      <video autoPlay loop muted playsInline className='contact-background-video'>
         <source src={Vid} type="video/mp4" />
       </video>
       <Header />
